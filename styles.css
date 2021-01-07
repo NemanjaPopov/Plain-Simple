@@ -396,5 +396,66 @@ ul {
 
 
 
+#newsletter-section {
+    background-color: #ededed;
+    padding: 3.5rem 0;
+}
+
+#newsletter-section div {
+    width: max-content;
+    margin: 0 auto;
+}
+
+#newsletter-section h2 {
+    display: inline-block;
+    font-size: calc(1rem + 12px);
+    font-weight: 300;
+    margin-right: 2em;
+}
+
+#newsletter-section form {
+    display: inline-block;
+}
+
+#newsletter-section input {
+    padding: .3em .6em;
+    font-size: calc(.6rem + 8px);
+    outline: none;
+}
+
+#newsletter-section input::placeholder {
+    color: #2f3149;
+}
+
+#newsletter-section #email {
+    border: 2px solid #2f3149;
+    background-color: Transparent;
+    width: 12vw;
+}
+
+#newsletter-section #submit {
+    background-color: #2f3149;
+    border: 2px solid #2f3149;
+    color: white;
+    padding-right: 4em;
+    float: right;
+    position: relative;
+    right: 2px;
+}
+
+#newsletter-section #submit:hover {
+    background-color: #ededed;
+    color: #2f3149;
+}
+
+
+
+
+
+
+
+
+
+
 
 
