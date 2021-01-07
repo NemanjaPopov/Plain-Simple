@@ -233,6 +233,113 @@ ul {
 
 
 
+#pricing-section {
+    font-size: 0; 
+    padding: 4rem 0 8rem; 
+}
+
+#pricing-section #pricing {
+    width: 55%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    color: #2b39d9;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+#pricing-section #pricing h2 {
+    font-size: calc(1rem + 14px);
+    margin-top: 1.5em;
+    font-weight: 300;
+}
+
+#pricing-section #pricing h3 {
+    font-size: calc(.6rem + 8px);
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+#pricing-section #pricing .chart {
+    border-radius: 4px;
+    border: 1px solid rgba(46, 48, 91, .2);
+    display: inline-block;
+    width: 28%;
+    margin: 0 .4em;
+    box-sizing: border-box;
+}
+
+#pricing-section #pricing .chart h5 {
+    font-size: calc(.6rem + 6px);
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+
+#pricing-section #pricing .chart h4 {
+    font-size: calc(1rem + 8px);
+    text-transform: uppercase;
+    margin: .3em 0 1.4em;
+}
+
+#pricing-section #pricing .chart h4 small {
+    font-size: .6em;
+}
+
+#pricing-section #pricing .chart h6 {
+    font-size: calc(.6rem + 4px);
+    font-weight: 300;
+    border-bottom: 1px solid rgba(43, 57, 217, .15);
+    padding: .4em 0;
+    margin: 0 2em;
+}
+
+#pricing-section #pricing .chart h6.hide {
+    color: Transparent;
+    border-color: Transparent;
+}
+
+#pricing-section #pricing .chart button {
+    font-size: calc(.6rem + 4px);
+    font-weight: 300;
+    margin: 4em 0 2em;
+    background-color: #2b39d9;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 500px;
+    padding: .4em 2.8em;
+}
+
+#pricing-section #pricing .chart button:hover {
+    opacity: .5;
+}
+
+#pricing-section img {
+    width: 45%;
+    vertical-align: bottom;
+}
+
+/* Change the charts color on hover */
+#pricing-section #pricing .chart:hover {
+    background-color: #2b39d9;
+}
+
+#pricing-section #pricing .chart:hover * {
+    color: white;
+    border-color: rgba(232, 230, 255, .2);
+}
+
+#pricing-section #pricing .chart:hover button {
+    background-color: white;
+    color: #2b39d9;
+}
+
+
+
+
+
+
 
 
 
