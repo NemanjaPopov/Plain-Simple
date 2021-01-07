@@ -450,10 +450,103 @@ ul {
 
 
 
+#footer-section {
+    background-color: #2f3149;
+    padding: 3rem 0;
+}
 
+#footer-section .container {
+    font-size: 0;
+}
 
+#footer-section #branding {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    text-align: center;
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    padding: 3rem 0 4rem;
+}
 
+#footer-section #branding h3 {
+    font-size: calc(1.2rem + 12px);
+}
 
+#footer-section #branding p {
+    width: 76%;
+    margin: 2em auto 0;
+    font-size: calc(.4rem + 8px);
+    font-weight: 300;
+    line-height: 160%;
+}
+
+#footer-section #branding h5 {
+    font-size: calc(.6rem + 8px);
+    margin-top: 1.4em;
+}
+
+#footer-section #links {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 1.6rem 6rem;
+    width: 60%;
+    color: white;
+}
+
+#footer-section #links h3 {
+    font-size: calc(1.2rem + 8px);
+    font-weight: 300;
+    padding-bottom: 4px;
+    padding-left: 1rem;
+}
+
+#footer-section #links #social-icons {
+    background-color: white;
+    display: inline-block;
+    padding: .1rem .6rem;
+    border-radius: 500px;
+    margin-bottom: 2.4rem;
+}
+
+#footer-section #links #social-icons img {
+    width: 2.2rem;
+    padding: .4rem;
+}
+
+#footer-section #links #social-icons img:hover {
+    width: 2.4rem;
+}
+
+#footer-section #links nav {
+    padding-left: 1rem;
+}
+
+#footer-section #links ul {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+}
+
+#footer-section #links ul h6 {
+    font-size: calc(.4rem + 8px);
+    font-weight: 700;
+    margin-bottom: .4em;
+}
+
+#footer-section #links ul a {
+    font-size: calc(.4rem + 6px);
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: .2em;
+}
+
+#footer-section #links ul a:hover {
+    opacity: .4;
+}
 
 
 
